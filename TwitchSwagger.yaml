@@ -20,7 +20,7 @@ paths:
   /channels/commercial:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -62,7 +62,7 @@ paths:
   /channels/ads:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -91,7 +91,7 @@ paths:
   /channels/ads/schedule/snooze:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -121,7 +121,7 @@ paths:
   /analytics/extensions:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -204,7 +204,7 @@ paths:
   /analytics/games:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -281,7 +281,7 @@ paths:
   /bits/leaderboard:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -359,7 +359,7 @@ paths:
   /bits/cheermotes:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -512,7 +512,7 @@ paths:
   /extensions/transactions:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -622,7 +622,7 @@ paths:
   /channels:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -717,7 +717,7 @@ paths:
   /channels/editors:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -765,7 +765,7 @@ paths:
   /channels/followed:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -808,7 +808,7 @@ paths:
   /channels/followers:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -851,7 +851,7 @@ paths:
   /channel_points/custom_rewards:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -1216,7 +1216,7 @@ paths:
   /channel_points/custom_rewards/redemptions:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -1411,7 +1411,7 @@ paths:
   /charity/campaigns:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -1498,7 +1498,7 @@ paths:
   /charity/donations:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -1578,7 +1578,7 @@ paths:
   /chat/chatters:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -1648,7 +1648,7 @@ paths:
   /chat/emotes:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -1731,7 +1731,7 @@ paths:
   /chat/emotes/global:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -1800,7 +1800,7 @@ paths:
   /chat/emotes/set:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -1883,7 +1883,7 @@ paths:
   /chat/badges:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -1953,7 +1953,7 @@ paths:
   /chat/badges/global:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -2018,7 +2018,7 @@ paths:
   /chat/settings:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -2147,7 +2147,7 @@ paths:
   /chat/emotes/user:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -2232,7 +2232,7 @@ paths:
   /chat/announcements:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -2265,7 +2265,7 @@ paths:
   /chat/shoutouts:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -2302,7 +2302,7 @@ paths:
   /chat/messages:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -2341,7 +2341,7 @@ paths:
   /chat/color:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -2417,7 +2417,7 @@ paths:
   /clips:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -2579,7 +2579,7 @@ paths:
   /eventsub/conduits:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -2703,7 +2703,7 @@ paths:
   /eventsub/conduits/shards:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -2794,7 +2794,7 @@ paths:
   /content_classification_labels:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -2843,7 +2843,7 @@ paths:
   /entitlements/drops:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -2963,7 +2963,7 @@ paths:
   /extensions/configurations:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -3034,7 +3034,7 @@ paths:
   /extensions/required_configuration:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -3062,7 +3062,7 @@ paths:
   /extensions/pubsub:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -3085,7 +3085,7 @@ paths:
   /extensions/live:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -3151,7 +3151,7 @@ paths:
   /extensions/jwt/secrets:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -3253,7 +3253,7 @@ paths:
   /extensions/chat:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -3281,7 +3281,7 @@ paths:
   /extensions:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -3460,7 +3460,7 @@ paths:
   /extensions/released:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -3639,7 +3639,7 @@ paths:
   /bits/extensions:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -3750,7 +3750,7 @@ paths:
   /eventsub/subscriptions:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -3935,7 +3935,7 @@ paths:
   /games/top:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -3999,7 +3999,7 @@ paths:
   /games:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -4063,7 +4063,7 @@ paths:
   /goals:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -4129,7 +4129,7 @@ paths:
   /guest_star/channel_settings:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -4212,7 +4212,7 @@ paths:
   /guest_star/session:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -4297,7 +4297,7 @@ paths:
   /guest_star/invites:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -4437,7 +4437,7 @@ paths:
   /guest_star/slot:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -4579,7 +4579,7 @@ paths:
   /guest_star/slot_settings:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -4638,7 +4638,7 @@ paths:
   /hypetrain/events:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -4757,7 +4757,7 @@ paths:
   /moderation/enforcements/status:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -4802,7 +4802,7 @@ paths:
   /moderation/automod/message:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -4826,7 +4826,7 @@ paths:
   /moderation/automod/settings:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -4961,7 +4961,7 @@ paths:
   /moderation/banned:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -5049,7 +5049,7 @@ paths:
   /moderation/bans:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -5137,7 +5137,7 @@ paths:
   /moderation/unban_requests:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -5337,7 +5337,7 @@ paths:
   /moderation/blocked_terms:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -5500,7 +5500,7 @@ paths:
   /moderation/chat:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -5538,7 +5538,7 @@ paths:
   /moderation/channels:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -5601,7 +5601,7 @@ paths:
   /moderation/moderators:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -5719,7 +5719,7 @@ paths:
   /channels/vips:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -5838,7 +5838,7 @@ paths:
   /moderation/shield_mode:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -5946,7 +5946,7 @@ paths:
   /polls:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -6208,7 +6208,7 @@ paths:
   /predictions:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -6469,7 +6469,7 @@ paths:
   /raids:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -6540,7 +6540,7 @@ paths:
   /schedule:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -6640,7 +6640,7 @@ paths:
   /schedule/icalendar:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -6668,7 +6668,7 @@ paths:
   /schedule/settings:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -6714,7 +6714,7 @@ paths:
   /schedule/segment:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -6894,7 +6894,7 @@ paths:
   /search/categories:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -6955,7 +6955,7 @@ paths:
   /search/channels:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -7048,7 +7048,7 @@ paths:
   /streams/key:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -7090,7 +7090,7 @@ paths:
   /streams:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -7209,7 +7209,7 @@ paths:
   /streams/followed:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -7308,7 +7308,7 @@ paths:
   /streams/markers:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -7446,7 +7446,7 @@ paths:
   /subscriptions:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -7549,7 +7549,7 @@ paths:
   /subscriptions/user:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -7606,7 +7606,7 @@ paths:
   /tags/streams:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -7713,7 +7713,7 @@ paths:
   /streams/tags:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -7800,7 +7800,7 @@ paths:
   /teams/channel:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -7874,7 +7874,7 @@ paths:
   /teams:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -7957,7 +7957,7 @@ paths:
   /users:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -8098,7 +8098,7 @@ paths:
   /users/blocks:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -8207,7 +8207,7 @@ paths:
   /users/extensions/list:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -8259,7 +8259,7 @@ paths:
   /users/extensions:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -8509,7 +8509,7 @@ paths:
   /videos:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
@@ -8667,7 +8667,7 @@ paths:
   /whispers:
     parameters:
       - in: header
-        name: client_id
+        name: client-id
         required: true
         schema:
           type: string
